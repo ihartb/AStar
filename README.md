@@ -20,12 +20,11 @@ A bunch of helper functions
 Creates the visuals to show how the agent solves the maze.
 #### 6. UserInterface.py
 Takes user inputs through the terminal to run the project. Users can:
--Change maze size (defaulted to 25x25)
-  - This generates a random maze of size nxn, where n is inputted by the user. 
-    - n = 25 is optimal
+- Change maze size (defaulted to 25x25, the optimal size)
+  - This generates a random maze of size nxn, where n is inputted by the user
   - Call this command to run the A* algorithms on a different maze as well. 
--Run forward A*
--Run adaptive A*
+- Run forward A*
+- Run adaptive A*
 
 ### Installation and Running
 - Download as zip
