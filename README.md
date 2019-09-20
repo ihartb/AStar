@@ -81,7 +81,7 @@ f in effect estimates the path's length, taking into account any obstacle's enco
 ```
 
 ###
-For a more detailed explanation and analysis of this project click [here](AStar.mp4). 
+For a more detailed explanation and analysis of this project click [here](AStar.pdf). 
 
 ## Author
 Bharti Mehta
