@@ -68,7 +68,7 @@ f in effect estimates the path's length, assuming no obstacles exist between the
 ```
 Manhattan distance is a type of heuristic. Heuristics are used to make a more informed decision about which cells to expand first so that we reach the goal as soon as possible. Compare A* to DFS/BFS, where cells are expanded without thought to which cell will help us reach the goal first. 
 
-##### adaptive_A_star(self, start_node, goal_node, lastClosedList, w):
+#### adaptive_A_star(self, start_node, goal_node, lastClosedList, w):
 A modification on forward A* where cells where f-values are the sum of the distance from start to current cell and distance to goal (calculated as previous search's distance from start to goal minus distance from start to current cell). 
 ```
 f = g+h = distance from start to current + estimated distance from current to goal
