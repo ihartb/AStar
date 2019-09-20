@@ -19,7 +19,7 @@ A bunch of helper functions
 #### 5. Visual.py
 Creates the visuals to show how the agent solves the maze.
 ```
-[Demo](AStar.pdf)
+[Demo](AStar.mp4)
 ```
 #### 6. UserInterface.py
 Takes user inputs through the terminal to run the project. Users can:
