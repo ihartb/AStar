@@ -99,6 +99,3 @@ class OpenList:
     def print(self):
         for i in range(1, self.current_size+1):
             print(self.heap[i].f, "(", self.heap[i].x, ", ", self.heap[i].y, ")")
-
-
-
