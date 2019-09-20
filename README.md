@@ -18,7 +18,6 @@ This code contains two types of A* algorithms on which users can run the code (f
 A bunch of helper functions
 #### 5. Visual.py
 Creates the visuals to show how the agent solves the maze.
-
 #### 6. UserInterface.py
 Takes user inputs through the terminal to run the project. Users can:
 -Change maze size (defaulted to 25x25)
@@ -35,7 +34,7 @@ Takes user inputs through the terminal to run the project. Users can:
 - Run UserInterface.py
 - Follow the commands in the terminal window to see results 
 
-### Dependencies
+#### Dependencies
 Tkinter
 
 ### Understanding the visuals
