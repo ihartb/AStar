@@ -1,27 +1,7 @@
 from Node import Node
 import random
-import pickle
 
 class Maze:
-    def __init__(self):
-        pass
-
-    def readfiftymazes(self):
-        f = open("SavedMazes", "rb")
-        mazeLibrary = pickle.load(f)
-        allActualMazes = []
-        i = 0
-        for m in mazeLibrary:
-            i+=1
-            maze = self.generate_blank_maze(101)
-            for x in range(0, 101):
-                for y in range(0, 101):
-                    if m[x][y] == 1:
-                        maze[x][y].cost = float("inf")
-            allActualMazes.append(maze)
-
-        return allActualMazes
-
     def generate_actual_maze(self, size):
         maze = Maze().generate_blank_maze(size)
         start = maze[random.randint(0, size - 1)][random.randint(0, size - 1)]
@@ -65,12 +45,3 @@ class Maze:
                 if p != size - 1:
                     maze[p][j].down_child = maze[p + 1][j]
         return maze
-
-    def generate_fifty_gridworlds(self, size):
-        libOfMazes = []
-        for x in range(0, 50):
-            maze = Maze().generate_actual_maze(size)
-            libOfMazes.append(maze)
-        return libOfMazes
-
-
