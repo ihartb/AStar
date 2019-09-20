@@ -3,7 +3,7 @@ from OpenList import OpenList
 
 class SolveMaze:
 
-    def forward_A_star(self, start_node,  goal_node, actual_maze, w):
+    def forward_A_star(self, start_node,  goal_node, w):
         start_node.update_g(0)
         start_node.update_h(goal_node)
         goal_node.update_g(float("inf"))
@@ -30,7 +30,7 @@ class SolveMaze:
                 if child.g > current.g + child.cost:
                     newG = current.g + child.cost
                     child.update_g(newG)
-                    child.parent = actual_maze[current.x][current.y]
+                    child.parent = current
                     open_list.insert(child)
                     w.inOpen(child)
                     w.master.update()

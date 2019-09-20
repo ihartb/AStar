@@ -31,7 +31,7 @@ class RepeatedAlgo:
             self.w.showMaze(self.agent_maze)
             passed = 0
             if self.algo_type == 1:
-                passed = SolveMaze().forward_A_star(start_node, self.goal_node, self.agent_maze, self.w)
+                passed = SolveMaze().forward_A_star(start_node, self.goal_node, self.w)
             elif self.algo_type == 2:
                 passed = SolveMaze().adaptive_A_star(start_node, self.goal_node, lastClosedList, self.w)
 
