@@ -18,9 +18,7 @@ This code contains two types of A* algorithms on which users can run the code (f
 A bunch of helper functions
 #### 5. Visual.py
 Creates the visuals to show how the agent solves the maze.
-```
-[Demo](AStar.mp4)
-```
+
 #### 6. UserInterface.py
 Takes user inputs through the terminal to run the project. Users can:
 -Change maze size (defaulted to 25x25)
@@ -75,10 +73,10 @@ h = (last search's path length) - g
 f in effect estimates the path's length, taking into account any obstacle's encountered in the previous searches
 ```
 ### Understanding the visuals
-<iframe src="https://giphy.com/embed/hULQww9gQMFj3LkdXR" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/hULQww9gQMFj3LkdXR">via GIPHY</a></p>
+
 
 ###
-For a more detailed explanation and analysis of this project click [here](AStar.pdf). 
+For a more detailed explanation and analysis of this project click [here](AStar.mp4). 
 
 ## Author
 Bharti Mehta
