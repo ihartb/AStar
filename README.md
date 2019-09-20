@@ -73,7 +73,7 @@ h = (last search's path length) - g
 f in effect estimates the path's length, taking into account any obstacle's encountered in the previous searches
 ```
 ### Understanding the visuals
-![Alt Text](https://gph.is/g/ZYxGg7r)
+![Alt Text](https://media.giphy.com/media/coBuWRamh4p6q3GfB8/giphy.gif)
 
 
 
