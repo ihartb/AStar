@@ -28,7 +28,6 @@ Takes user inputs through the terminal to run the project. Users can:
 -Run forward A*
 -Run adaptive A*
 
-
 ### Installation and Running
 - Download as zip
 - Unzip file
@@ -38,6 +37,16 @@ Takes user inputs through the terminal to run the project. Users can:
 
 ### Dependencies
 Tkinter
+
+### Understanding the visuals
+- Gray squares are discovered blocked cells.
+- Black squares are blocked cells discovered with the last A* pathfinding. 
+- Black square with a green circle is the goal cell.
+- Black square with a red circle is the start cell.
+- Circles with the blue outline represent cells in the open list
+- Filled in circled are cells in the closed list. Cells closer in color to red are farther from the goal, likewise cells closer in color to green are closer to the goal.
+
+![Alt Text](https://media.giphy.com/media/RfqMyeRszPyRMPB0PG/giphy.gif)
 
 ## A Deeper Understanding
 ### Generating a maze:
@@ -72,10 +81,6 @@ For cell's encountered in previous searches:
 h = (last search's path length) - g
 f in effect estimates the path's length, taking into account any obstacle's encountered in the previous searches
 ```
-### Understanding the visuals
-![Alt Text](https://media.giphy.com/media/coBuWRamh4p6q3GfB8/giphy.gif)
-
-
 
 ###
 For a more detailed explanation and analysis of this project click [here](AStar.mp4). 
