@@ -7,8 +7,8 @@ This project implements various versions of A* from scratch to help a computer a
 - Download as zip
 - Unzip file
 - Open file in your preferred source code editor that supports Python 
-- Run UserInterface.py
-- Follow the commands in the terminal window to see results (click [here](https://github.com/ihartb/AStar#6-userinterfacepy) for more information)
+- Run UserInterface.py 
+- Follow the commands in the terminal window to see results (for explanation to the commands, scroll to [Relevant Files #6 UserInterface.py](https://github.com/ihartb/AStar#6-userinterfacepy)
 
 #### Dependencies
 Tkinter
@@ -32,7 +32,7 @@ A blank maze is generated where all cells are marked as open. This maze represen
 #### 2. RepeatedAlgo.py
 RepeatedAlgo.py not only finds the quickest path, using SolveMaze.py, on the agent's map, but then tests this path on the actual maze. If an obstacle is found on the actual maze using the calculated path, the agent moves to the obstacle, marks this obstacle on it's own maze, and then recalculates another path (on SolveMaze.py) using it's newly improved map. 
 #### 3. SolveMaze.py
-This code contains two types of A* algorithms on which users can run the code (for more details, click here).
+This code contains two types of A* algorithms on which users can run the code (for deeper understanding, scroll to [Finding the shortest path](https://github.com/ihartb/AStar#finding-the-shortest-path)).
 #### 4. Metrics.py 
 A bunch of helper functions
 #### 5. Visual.py
